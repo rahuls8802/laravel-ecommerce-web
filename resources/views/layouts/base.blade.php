@@ -49,9 +49,9 @@
                         </div>
                         <div class="topbar-menu right-menu">
                             <ul>
-                                <li class="menu-item"><a title="Register or Login" href="login.html">Login</a></li>
+                                {{-- <li class="menu-item"><a title="Register or Login" href="login.html">Login</a></li>
                                 <li class="menu-item"><a title="Register or Login"
-                                        href="register.html">Register</a></li>
+                                        href="register.html">Register</a></li> --}}
                                 <li class="menu-item lang-menu menu-item-has-children parent">
                                     <a title="English" href="#"><span class="img label-before"><img
                                                 src="assets/images/lang-en.png" alt="lang-en"></span>English<i
@@ -549,7 +549,7 @@
                 <div class="coppy-right-box">
                     <div class="container">
                         <div class="coppy-right-item item-left">
-                            <p class="coppy-right-text">Copyright © 2020 Surfside Media. All rights reserved</p>
+                            <p class="coppy-right-text">Copyright © 2021 Rahul Singh. All rights reserved</p>
                         </div>
                         <div class="coppy-right-item item-right">
                             <div class="wrap-nav horizontal-nav">
