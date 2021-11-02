@@ -30,7 +30,7 @@ Primary use:    Ecommerce
 /*------------------------------------------------------------------
 [Color codes]
 
-    Option Color 1 : #ff2832;
+    Option Color 1 : #f3969a;
 
     Option Color 2 : #365db5;
 
@@ -737,11 +737,11 @@ li.menu-item .nav-label.new-label::before {
 }
 
 li.menu-item .nav-label.sale-label {
-    background: #ff2832;
+    background: #f3969a;
 }
 li.menu-item .nav-label.sale-label::before {
-    border-top-color: #ff2832;
-    border-left-color: #ff2832;
+    border-top-color: #f3969a;
+    border-left-color: #f3969a;
 }
 
 .header-nav-section li:not(:last-child)::after {
@@ -1099,7 +1099,7 @@ li.menu-item .nav-label.sale-label::before {
 }
 .wrap-main-slide .slide-1 .sale-info .price {
     font-weight: 700;
-    color: #ff2832;
+    color: #f3969a;
     font-size: 24px;
 }
 .wrap-main-slide .slide-3 .btn-link,
@@ -1121,7 +1121,7 @@ li.menu-item .nav-label.sale-label::before {
 .wrap-main-slide .slide-2 .f-title {
     font-size: 40px;
     line-height: 35px;
-    color: #ff2832;
+    color: #f3969a;
     font-weight: 700;
     display: inline-block;
     text-transform: uppercase;
@@ -1196,7 +1196,7 @@ li.menu-item .nav-label.sale-label::before {
 .wrap-main-slide .slide-3 .sale-info .price {
     font-weight: 700;
     font-size: 25px;
-    color: #ff2832;
+    color: #f3969a;
 }
 
 /* main slide's animate */
@@ -1629,7 +1629,7 @@ li.menu-item .nav-label.sale-label::before {
     width: 100%;
     /*float: left;*/
     text-align: left;
-    background-color: #ff2832;
+    background-color: #f3969a;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
@@ -1811,12 +1811,12 @@ li.menu-item .nav-label.sale-label::before {
     border-left-color: #365db5;
 }
 .product .product-thumnail .group-flash .flash-item.sale-label {
-    background-color: #ff2832;
+    background-color: #f3969a;
     margin-left: 8px;
 }
 .product .product-thumnail .group-flash .flash-item.sale-label::before {
-    border-top-color: #ff2832;
-    border-left-color: #ff2832;
+    border-top-color: #f3969a;
+    border-left-color: #f3969a;
 }
 .product .product-info .product-name span,
 .product-style-2 .product-info .product-name span {
@@ -1885,7 +1885,7 @@ li.menu-item .nav-label.sale-label::before {
 .product .product-info .wrap-price ins > p,
 .product-style-2 .product-info .wrap-price ins > p {
     font-weight: 600;
-    color: #ff2832;
+    color: #f3969a;
     text-align: left;
     padding-right: 8px;
 }
@@ -2797,7 +2797,7 @@ li.menu-item .nav-label.sale-label::before {
 .ui-slider-horizontal .ui-slider-handle {
     top: -5px;
     margin-left: 0;
-    background-color: #ff2832;
+    background-color: #f3969a;
 }
 .ui-slider-horizontal .ui-slider-range {
     top: 0;
@@ -2920,7 +2920,7 @@ li.menu-item .nav-label.sale-label::before {
     border-radius: 50%;
 }
 .product-list-style .product-attribute li .attr-red-color {
-    background-color: #ff2832;
+    background-color: #f3969a;
 }
 .product-list-style .product-attribute li .attr-yellow-color {
     background-color: #ecbf33;
@@ -2979,7 +2979,7 @@ li.menu-item .nav-label.sale-label::before {
 }
 .product-list-style .advance-info .wrap-price ins > p {
     font-weight: 600;
-    color: #ff2832;
+    color: #f3969a;
     text-align: left;
     padding-right: 8px;
 }
@@ -3239,7 +3239,7 @@ li.menu-item .nav-label.sale-label::before {
     font-weight: 400;
 }
 .wrap-contacts .contact-box label > span {
-    color: #ff2832;
+    color: #f3969a;
     margin: 0;
     padding: 0;
 }
@@ -4165,7 +4165,7 @@ article.single-post blockquote p:last-child::after {
     outline: none;
 }
 .wrap-iten-in-cart .products-cart .delete a.btn:hover i {
-    color: #ff2832;
+    color: #f3969a;
 }
 .shopping-cart .summary {
     display: inline-block;
@@ -4571,7 +4571,7 @@ article.single-post blockquote p:last-child::after {
 }
 .wrap-product-detail .detail-info .wrap-price ins > p {
     font-weight: 600;
-    color: #ff2832;
+    color: #f3969a;
     text-align: left;
     padding-right: 8px;
 }
@@ -4589,7 +4589,7 @@ article.single-post blockquote p:last-child::after {
     text-align: left;
 }
 .wrap-product-detail .detail-info .stock-info.in-stock b {
-    color: #ff2832;
+    color: #f3969a;
 }
 .wrap-product-detail .advance-info .tab-control,
 .wrap-product-detail .advance-info .tab-contents {
@@ -4934,7 +4934,7 @@ table.shop_attributes tbody {
     text-transform: uppercase;
 }
 .wrap-address-billing .row-in-form label span {
-    color: #ff2832;
+    color: #f3969a;
 }
 .wrap-address-billing .row-in-form input[type="email"],
 .wrap-address-billing .row-in-form input[type="text"],
@@ -5697,7 +5697,7 @@ table.shop_attributes tbody {
 }
 .wrap-footer-item .wrap-hotline-footer .phone-number,
 .topbar-menu-area .topbar-menu .label-before.fa-mobile {
-    color: #ff2832 !important;
+    color: #f3969a !important;
 }
 .fill-color .header-nav-section ul li a {
     color: #ffffff;
@@ -7304,7 +7304,7 @@ table.shop_attributes tbody {
 }
 
 .btn-submitx {
-    background: #ff2832;
+    background: #f3969a;
     font-size: 17px;
     color: #ffffff;
     line-height: 19px;
@@ -7335,4 +7335,45 @@ table.shop_attributes tbody {
 } */
 .text-red-600 {
     color: red;
+}
+.pl-4,
+.px-4 {
+    padding-left: 1.5rem !important;
+}
+.pb-2,
+.py-2 {
+    padding-bottom: 0.5rem !important;
+}
+.pt-2,
+.py-2 {
+    padding-top: 0.5rem !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+nav svg {
+    height: 20px;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+.wrap-pagination-info {
+    margin-top: 46px;
+    border-top: 1px solid #e6e6e6;
+}
+.wrap-pagination-info .hidden {
+    display: block !important;
+}
+.wrap-pagination-info .rounded-1-md {
+    margin-right: 5px;
+}
+.wrap-pagination-info .rounded-r-md {
+    margin-left: 5px;
 }

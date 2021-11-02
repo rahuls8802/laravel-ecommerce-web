@@ -69,7 +69,8 @@
                             <ul>
                                 <li class="menu-item">
                                     <a title="Hotline: (+123) 456 789" href="#"><span
-                                            class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
+                                            class="icon label-before fa fa-mobile"></span>Hotline Number: (+91) 4800
+                                        4800</a>
                                 </li>
                             </ul>
                         </div>
