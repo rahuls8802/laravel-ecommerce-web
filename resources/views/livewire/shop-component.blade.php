@@ -76,7 +76,9 @@
                                              class="product-name"><span>{{ $product->name }} </span></a>
                                          <div class="wrap-price"><span
                                                  class="product-price">${{ $product->regular_price }}</span></div>
-                                         <a href="#" class="btn add-to-cart">Add To Cart</a>
+                                         <a href="#" class="btn add-to-cart" {{-- adding here gloudman add to cart functionality from shopcomponents --}}
+                                             wire:click.prevent="store({{ $product->id }},'{{ $product->name }}',{{ $product->regular_price }})">Add
+                                             To Cart</a>
                                      </div>
                                  </div>
                              </li>

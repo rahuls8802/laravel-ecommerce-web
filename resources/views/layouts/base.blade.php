@@ -199,7 +199,10 @@
                                     <a href="#" class="link-direction">
                                         <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                                         <div class="left-info">
-                                            <span class="index">4 items</span>
+                                            {{-- fetching cart items and showing in header --}}
+                                            @if (Cart::count() > 0)
+                                                <span class="index">{{ Cart::count() }} items</span>
+                                            @endif
                                             <span class="title">CART</span>
                                         </div>
                                     </a>
