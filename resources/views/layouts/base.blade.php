@@ -148,8 +148,8 @@
                         <div class="mid-section main-info-area">
 
                             <div class="wrap-logo-top left-section">
-                                <a href="/" class="link-to-home"><img
-                                        src="{{ asset('assets/images/logo-top-1.png') }} " alt="mercado"></a>
+                                <a href="/" class="link-to-home"><img class="w-25"
+                                        src="{{ asset('assets/images/rahul-logo.png') }} " alt="mercado"></a>
                             </div>
 
                             <div class="wrap-search center-section">
