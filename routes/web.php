@@ -6,6 +6,7 @@ use App\Http\Livewire\CategoryComponent;
 use App\Http\Livewire\CheckoutComponent;
 use App\Http\Livewire\DetailsComponent;
 use App\Http\Livewire\HomeComponent;
+use App\Http\Livewire\SearchComponent;
 use App\Http\Livewire\ShopComponent;
 use App\Http\Livewire\User\UserDashboardComponent;
 use Illuminate\Support\Facades\Route;
@@ -38,6 +39,9 @@ Route::get('/product/{slug}', DetailsComponent::class)->name('product.details');
 
 // Route for Categories
 Route::get('/product-category/{category_slug}', CategoryComponent::class)->name('product.category');
+
+//Route for Search
+Route::get('/search', SearchComponent::class)->name('product.search');
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //     return view('dashboard');
