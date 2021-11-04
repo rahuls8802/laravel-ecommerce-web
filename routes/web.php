@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Admin\AdminCategoryComponent;
 use App\Http\Livewire\Admin\AdminDashboardComponent;
 use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CategoryComponent;
@@ -61,4 +62,6 @@ Route::middleware([
 ])->group(function () {
     // Admin dashboard component Routes
     Route::get('/admin/dashboard', AdminDashboardComponent::class)->name('admin.dashboard');
+    // Admin Categories Route
+    Route::get('/admin/categories', AdminCategoryComponent::class)->name('admin.categories');
 });
