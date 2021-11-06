@@ -5,6 +5,7 @@ use App\Http\Livewire\Admin\AdminAddProductComponent;
 use App\Http\Livewire\Admin\AdminCategoryComponent;
 use App\Http\Livewire\Admin\AdminDashboardComponent;
 use App\Http\Livewire\Admin\AdminEditCategoryComponent;
+use App\Http\Livewire\Admin\AdminEditProductComponent;
 use App\Http\Livewire\Admin\AdminProductComponent;
 use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CategoryComponent;
@@ -76,4 +77,6 @@ Route::middleware([
     Route::get('/admin/products', AdminProductComponent::class)->name('admin.products');
     //Admin Add Product
     Route::get('/admin/product/add', AdminAddProductComponent::class)->name('admin.addproduct');
+    // Admin Edit Product
+    Route::get('/admin/product/edit/{product_slug}', AdminEditProductComponent::class)->name('admin.editproduct');
 });
