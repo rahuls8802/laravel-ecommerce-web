@@ -15,8 +15,26 @@ class AdminAddCategoryComponent extends Component
     {
         $this->slug = Str::slug($this->name);
     }
+
+    // update livewire lifecycle hook method
+    public function updated($fields)
+    {
+        $this->validateOnly($fields, [
+            'name' => 'required',
+            'slug' => 'required | unique:categories'
+
+        ]);
+    }
+
+
+
     public function storeCategory()
     {
+        // adding validation to form 
+        $this->validate([
+            'name' => 'required',
+            'slug' => 'required | unique:categories'
+        ]);
         $category = new Category();
         $category->name = $this->name;
         $category->slug = $this->slug;
